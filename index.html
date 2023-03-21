@@ -6,60 +6,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
-</head>
+    <link href="bootstrap.min.css" rel="stylesheet">
 
-<body>
     <style>
         .background {
-            background-image: url("media/backround.webp");
-            background-size: 1200px;
-            width: 1350;
+            background-image: url("media/malta.jpg");
+            background-size: 1263px;
+            width: 1263px;
             height: 800px;
             border: solid 2px black;
         }
-
-        #HeadingText {
-            display: inline-block;
-            background-color: white;
-        }
     </style>
-    <div class="background">
+</head>
 
-        <h1 style="text-align: center;">
-            <p id="HeadingText">
-                poker information
-            </p>
-        </h1>
+<body>
 
-        <div>
-            <h3 style="text-align: right;">
-                <p id="HeadingText">
-                    :תוכן עניינים
-                </p>
-            </h3>
-            <a href="tenroles.html">
-                <h5 style="color:rgb(240, 33, 10);">
-                    <p style="text-align: right;">
-                        איך לנהל שולחן פוקר ביתי - עשרת הכללים
-                    </p>
-                </h5>
-            </a>
-            <a href="easygame.html">
-                <h5 style="color:rgb(240, 33, 10);">
-                    <p style="text-align: right;">
-                        east game - תרגם הספר
-                    </p>
-                </h5>
-            </a>
-            <a href="gamerole.html">
-                <h5 style="color:rgb(240, 33, 10);">
-                    <p style="text-align: right;">
-                        חוקי המשחק
-                    </p>
-                </h5>
-            </a>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html" style="font-size: smaller; text-align: center;">דף הבית</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="tenroles.html" style="font-size: small; text-align: center;">עשרת הכללים<br> לניהול שולחן<br> פוקר ביתי</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gamerole.html" style="font-size: small; text-align: center;">חוקי המשחק</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="background">
+
+            
+
         </div>
-    </div>
+    </main>
 </body>
 
 </html>
